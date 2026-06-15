@@ -69,4 +69,4 @@ jgeometry.surfaceArea.sphere(radius) - Total surface area of a sphere.
 jgeometry.surfaceArea.cone(radius, slantHeight) - Total surface area of a cone.
 
 License
-MIT — Feel free to use it in any of your projects!
+MIT - Feel free to use it in any of your projects!
