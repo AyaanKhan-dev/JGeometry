@@ -1,13 +1,28 @@
 {
   "name": "jgeometry",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A high-performance geometric calculation utility library for 2D and 3D shapes.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "exports": {
+    ".": "./index.js",
+    "./area": "./src/area.js",
+    "./perimeter": "./src/perimeter.js",
+    "./volume": "./src/volume.js",
+    "./surfaceArea": "./src/surfaceArea.js"
   },
-  "keywords": [],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "geometry",
+    "math",
+    "area",
+    "perimeter",
+    "volume",
+    "surface-area",
+    "shapes"
+  ],
   "author": "Ayaan Khan",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module"
 }
